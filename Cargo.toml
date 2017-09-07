@@ -1,0 +1,21 @@
+[package]
+name = "rapt"
+version = "0.1.0"
+authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
+
+[dependencies]
+serde = "1.0"
+chrono = { version =  "0.4", features = ["serde"], optional = true }
+
+[dev-dependencies]
+serde_derive = "1.0"
+serde_json = "1.0"
+rapt_derive = { path = "rapt_derive", version = "0.1.0" }
+assert_matches = "1.1"
+
+[features]
+default = ["timestamp_instruments"]
+timestamp_instruments = ["chrono"]
+
+[workspace]
+members = [".", "rapt_derive"]

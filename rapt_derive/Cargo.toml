@@ -1,0 +1,18 @@
+[package]
+name = "rapt_derive"
+version = "0.1.0"
+authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.11"
+quote = "0.3"
+rapt = { version = "0.1", path = ".." }
+
+[dev-dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+rmp-serde = "0.13"
+assert_matches = "1.1"
