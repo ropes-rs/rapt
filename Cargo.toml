@@ -1,6 +1,6 @@
 [package]
 name = "rapt"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
 description = "Runtime application instrumentation toolkit"
 license = "MIT/Apache-2.0"
@@ -27,7 +27,7 @@ mqtt_publisher = ["mqttc"]
 
 [package.metadata.docs.rs]
 all-features = true
-dependencies = ["openssl"]
+dependencies = ["libssl-dev"]
 
 [workspace]
 members = [".", "rapt_derive"]
