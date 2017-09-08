@@ -2,6 +2,10 @@
 name = "rapt"
 version = "0.1.0"
 authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
+description = "Runtime application instrumentation toolkit"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/ropes-rs/rapt"
+documentation = "https://docs.rs/rapt"
 
 [dependencies]
 serde = "1.0"
