@@ -1,6 +1,6 @@
 [package]
 name = "rapt_derive"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
 description = "Rapt derivation macros"
 license = "MIT/Apache-2.0"

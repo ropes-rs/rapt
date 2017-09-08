@@ -1,6 +1,6 @@
 [package]
 name = "rapt"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
 description = "Runtime application instrumentation toolkit"
 license = "MIT/Apache-2.0"
@@ -24,6 +24,9 @@ assert_matches = "1.1"
 default = ["timestamp_instruments"]
 timestamp_instruments = ["chrono"]
 mqtt_publisher = ["mqttc"]
+
+[package.metadata.docs.rs]
+all-features = true
 
 [workspace]
 members = [".", "rapt_derive"]
