@@ -311,3 +311,17 @@ impl Listener for mpsc::Sender<&'static str> {
         let _ = self.send(name).unwrap();
     }
 }
+
+/// Declare and re-export optional mqttc crate
+#[cfg(feature = "mqtt_publisher")]
+pub extern crate mqttc;
+/// Optional mqtt module
+#[cfg(feature = "mqtt_publisher")]
+pub mod mqtt;
+
+/// Declare and re-export optional serde_json crate
+#[cfg(feature = "serde_json")]
+pub extern crate serde_json;
+
+/// Serialization utilities
+pub mod ser;
