@@ -1,6 +1,6 @@
 [package]
 name = "rapt_derive"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
 description = "Rapt derivation macros"
 license = "MIT/Apache-2.0"
@@ -18,4 +18,4 @@ serde = "1.0"
 serde_derive = "1.0"
 rmp-serde = "0.13"
 assert_matches = "1.1"
-rapt = { version = "0.1", path = ".." }
+rapt = { version = "^0.1", path = ".." }
