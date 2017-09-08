@@ -1,5 +1,11 @@
 # Rapt
 
+| | |
+|-|-|
+| Build status (Linux) | [![Build Status](https://travis-ci.org/ropes-rs/rapt.svg?branch=master)](https://travis-ci.org/ropes-rs/rapt) |
+| Project status | Usable, between alpha and beta |
+| Production-readiness | Depends on your risk tolerance |
+
 Rapt is a runtime application instrumentation toolkit for Rust.
 
 ## Contributing
